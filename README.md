@@ -4,4 +4,4 @@ HTML-CSS-JS-GSAP ile yapılmış örnek sayfadır
     <img src="/ss1.png" width="40%" />
     <img src="/ss2.png" width="40%" />
 </div>
-(https://simdi-laciverte.vercel.app/)
+(https://ulas-bana-sample.vercel.app/)
