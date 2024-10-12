@@ -8,7 +8,8 @@ html,
 body {
   width: 100%;
   height: 100%;
-  background: #ccb5a2;
+  background: linear-gradient(90deg, rgba(50,48,44,1) 0%, rgba(250,250,250,1) 100%, rgba(224,224,224,1) 100%);
+
   font-family: "Neue Montreal";
 }
 
@@ -25,11 +26,14 @@ button {
 button#toggle {
   background: #000;
   color: #fff;
+  transition: all 0.5s;
+  transform: scale(0.9);
 }
 
-button:hover {
-  background: #000;
-  color: #fff;
+button#toggle:hover {
+  background: #fff;
+  color: #000;
+  transform: scale(1.1);
 }
 
 .nav,
